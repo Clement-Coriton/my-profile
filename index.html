@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clément Coriton's Profile</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Presentation Page</h1>
+      <p>
+        Discover my background, my projects, and connect with me on social media.
+      </p>
+      <img
+        src="./images/profile-picture.jpeg"
+        alt="Profile Picture"
+        class="profile-pic"
+      />
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I am currently a student in the Grande École program at IÉSEG School of Management, passionate about economics. I love learning new skills and taking on challenges. I am currently based in Courbevoie, France.
+      </p>
+    </section>
+
+    <section id="education">
+      <h2>Educational Background</h2>
+      <p>
+        I am currently a student in the Grande École program at IÉSEG School of Management. My professional goal is to specialize in finance during my master's studies, as I am passionate about market research.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Professional Projects</h2>
+      <p>
+        Passionate about economics and market research, I believe that international trading is an opportunity for me to combine my interests in finance and investment strategies. I wish to evolve in a stimulating environment where pressure is present, allowing me to grow both professionally and personally.
+      </p>
+    </section>
+
+    <section id="hobbies">
+      <h2>Hobbies</h2>
+      <p>
+        I have two great passions: music and handball. Handball is a sport that teaches me discipline, teamwork, and perseverance—values I consider essential in both my personal and professional life. I am also an active member of the IÉSEG handball association. Music, for me, is a source of inspiration and escape, allowing me to connect with different cultures and emotions.
+      </p>
+    </section>
+
+    <section id="socials">
+      <h2>Find Me on Social Media</h2>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/cl%C3%A9ment-coriton-3a9160328/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Clement-Coriton" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/clement_crt__/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; <span id="current-year"></span> Coriton. All rights reserved.</p>
+    </footer>
+
+    <script>
+      // Script to display the current year
+      document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
